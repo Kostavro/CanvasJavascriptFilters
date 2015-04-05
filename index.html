@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="example">
+        <h2> HTML5 Canvas - Common Image Filters using Javascript</h2>
+        <h3><a href="index.html">Main</a>
+            <a href="about.html">About</a>
+            <a href="report.html">Report</a> 
+        </h3>
+
+        <div class="column1">
+            <input type="button" onclick="resetToColor()" value="Original"/><br />
+            <input type="button" onclick="fliph()" value="Horizontal Flip" /><br />
+            <input type="button" onclick="flipv()" value="Vertical Flip" /><br />
+            <input type="button" onclick="Grayscale()" value="Grayscale" /><br />
+            <input type="button" onclick="Invert()" value="Invert" /><br />
+            <input type="button" onclick="Thresholded()" value="Threshold" /><br />
+            <input type="button" onclick="sepia()" value="Sepia" /><br />
+            <input type="button" onclick="noise()" value="Noise" /><br />
+            <input type="button" onclick="posterize()" value="Posterize" /><br />
+            <input type="button" onclick="trip()" value="Trippy" /><br />
+            Saturation: <input type="button" onclick="changesaturation(1)" value="+"/>
+            <input type="button" onclick="changesaturation(-1)" value="-"/><br />
+            Contrast: <input type="button" onclick="changecontrast(10)" value="+"/>
+            <input type="button" onclick="changecontrast(-10)" value="-"/><br />
+            Light: <input type="button" onclick="changeGrayValue(0.1)" value="+" />
+            <input type="button" onclick="changeGrayValue(-0.1)" value="-" /><br />
+            Blur(Original): <input type="button" onclick="changeBlurValue(1)" value="+" />
+	        <input type="button" onclick="changeBlurValue(-1)" value="-" /><br />
+            Red: <input type="button" onclick="changeColorValue('er', 10)" value="+" />
+            <input type="button" onclick="changeColorValue('er', -10)" value="-" /><br />
+            Green: <input type="button" onclick="changeColorValue('eg', 10)" value="+" />
+            <input type="button" onclick="changeColorValue('eg', -10)" value="-" /><br />
+            Blue: <input type="button" onclick="changeColorValue('eb', 10)" value="+" />
+            <input type="button" onclick="changeColorValue('eb', -10)" value="-" /><br />      
+        </div>
+        <div class="column2">
+            <canvas id="orig"></canvas>
+            <canvas id="panel"></canvas>
+            
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <br><br><br><br>
+    <footer class="footer2">
+        <p>Created for the purposes of Multimedia Technology Course</p>
+        <p>CS AUEB 2014-2015</p>
+        <p>Stavropoulos Konstantinos #3100172 -- <a href="mailto:p3100172@dias.aueb.gr">Contact</a></p><br>
+    </footer>
+</body>
+</html>

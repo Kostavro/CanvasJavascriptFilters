@@ -1,0 +1,289 @@
+body{
+    background:#e4e4e4;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0
+}
+
+.example{
+    background:#e4e4e4;
+    font-size:80%;
+    position:relative;
+    align-content:center;
+}
+
+.footer{
+    padding-top: 20px;
+    background: #d8d8d8;
+    font-size:80%;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    align-content:center;
+}
+
+.footer2{
+    padding-top: 20px;
+    background: #d8d8d8;
+    font-size:80%;
+    position:relative;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    align-content:center;
+}
+
+h3 {
+    text-align:center;
+    background: #d8d8d8;
+    font-size: 16px;
+}
+
+h2 {
+    text-align:center;
+    background: #d8d8d8;
+    font-size: 20px;
+}
+
+.column1 {
+    position:fixed;
+    float:left;
+    padding-left: 10px;
+    text-align:right;
+    width:185px;
+}
+.column2 {
+    position:relative;
+    left: 200px;
+    float:left;
+    width:550px;
+}
+
+input[type=button] {
+    margin:5px;
+}
+
+#impress:not(.impress-not-supported) .step{
+	opacity:0.4;
+}
+
+#impress .step{
+	width:700px;
+	height: 600px;
+	position:relative;
+	margin:0 auto;
+	
+	-moz-transition:1s opacity;
+	-webkit-transition:1s opacity;
+	transition:1s opacity;
+}
+
+#impress .step.active{
+	opacity:1;
+}
+
+#impress h2{
+	font: normal 44px/1.5 'PT Sans Narrow', sans-serif;
+	color:#444648;
+	position:absolute;
+	z-index:10;
+}
+
+#impress p{
+	font: normal 18px/1.3 'Open Sans', sans-serif;
+	color:#27333f;
+	position:absolute;
+	z-index:10;
+}
+
+#impress img{
+	position:absolute;
+	z-index:1;
+}
+
+.arrow{
+	width:32px;
+	height:54px;
+	background:url('../img/arrows.png') no-repeat;
+	position:fixed;
+	top:50%;
+	margin-top:-27px;
+	cursor:pointer;
+	text-indent:-9999px;
+	overflow:hidden;
+	opacity:0.8;
+	border:none !important;
+	text-decoration:none !important;
+	
+	-moz-transition:0.2s opacity;
+	-webkit-transition:0.2s opacity;
+	transition:0.2s opacity;
+}
+
+.arrow:hover{
+	opacity:1;
+}
+
+#arrowLeft{
+	left:45px;
+}
+
+#arrowRight{
+	right:45px;
+	background-position:top right;
+}
+
+/* Hide the arrows if impress is not supported */
+
+#impress.impress-not-supported + .arrow,
+#impress.impress-not-supported + .arrow + .arrow{
+	display:none;
+}
+
+
+/*----------------------------
+	Slide 1 - Intro
+-----------------------------*/
+
+
+#impress #intro{
+	width: 500px;
+}
+
+#intro h2{
+	text-align: center;
+    width: 100%;
+}
+
+#intro p{
+	font-size: 22px;
+    left: 290px;
+    line-height: 1.6;
+    top: 220px;
+    white-space: nowrap;
+}
+
+#intro img{
+	top: 120px;
+}
+
+
+/*----------------------------
+	Slide 2 - Simplicity
+-----------------------------*/
+
+
+#impress #simplicity{
+	width: 675px;
+}
+
+#simplicity h2{
+	left: 0;
+	top: 135px;
+	width: 400px;
+}
+
+#simplicity p{
+	left: 0px;
+    text-align: justify;
+    top: 225px;
+    width: 365px;
+}
+
+#simplicity img{
+	right: 0;
+    top: 30px;
+}
+
+
+/*----------------------------
+	Slide 3 - Connect
+-----------------------------*/
+
+
+#impress #connect{
+	width: 560px;
+}
+
+#connect h2{
+	left: 0;
+	top: 320px;
+	width: 100%;
+	text-align:center;
+}
+
+#connect p{
+	left:50%;
+	margin-left:-245px;
+    text-align: left;
+    top: 410px;
+    width: 490px;
+}
+
+#connect img{
+	right: 0;
+    top: 50px;
+}
+
+
+/*----------------------------
+	Slide 4 - Upload
+-----------------------------*/
+
+
+#impress #upload{
+	width: 620px;
+}
+
+#upload h2{
+	left: 0;
+    text-align: left;
+    top: -8px;
+}
+
+#upload p{
+    font-size:20px;
+    top: 82px;
+    width: 280px;
+}
+
+#upload img{
+	right: 0;
+    top: 30px;
+}
+
+
+/*----------------------------
+	Slide 5 - Music
+-----------------------------*/
+
+
+#impress #music{
+	width: 690px;
+}
+
+#music h2{
+	left: 0;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}
+
+#music p{
+	font-size: 20px;
+    text-indent: 0px;
+    top: 95px;
+    width: 402px;
+}
+
+#music img{
+	right: 0;
+    top: 200px;
+}
+
+.report{
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align:left;
+}
