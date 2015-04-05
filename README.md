@@ -10,4 +10,4 @@ TODO
 
 
 DEMO
-http://htmlpreview.github.io/?https://github.com/Kostavro/CanvasJavascriptFilters/blob/master/index.html
+http://niovi.aueb.gr/~p3100172/rocks
