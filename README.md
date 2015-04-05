@@ -5,6 +5,7 @@ A quick implementation of javascript filters applied on an HTML5 canvas image, w
 
 
 TODO
+
 -> file uploader
 
 -> all filters should work with each other
