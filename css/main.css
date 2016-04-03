@@ -5,6 +5,10 @@ body{
     padding:0
 }
 
+.boby{
+	background:#7c8081;
+}
+
 .example{
     background:#e4e4e4;
     font-size:80%;
